@@ -19,7 +19,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
               
               <div className="flex gap-6 items-center text-xs uppercase font-bold">
                 <Link href="/" className="hover:text-blue-400">Федерации</Link>
-                <span className="text-gray-600 cursor-not-allowed">Свободные клубы</span>
+                <Link href="/free-clubs" className="hover:text-blue-400">Свободные клубы</Link>
                 
                 <div className="border-l border-gray-700 pl-6 flex gap-4">
                   {session ? (
